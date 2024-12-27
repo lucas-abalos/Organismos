@@ -28,7 +28,8 @@ const App: React.FC = () => {
         <Router>
           <Routes>
             {/* Ruta principal */}
-            <Route path="/organismos" element={<MainPage />} />
+            <Route path="/" element={<MainPage />} />
+            <Route path="/Organismos" element={<MainPage />} />
             {/* Ruta para la pantalla de NOTAMS */}
             <Route path="/notams" element={<NoTAMSPage />} />
           </Routes>

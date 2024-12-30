@@ -1,5 +1,5 @@
 import React from 'react';
-import { MenuItem, Select, SelectChangeEvent, FormControl, InputLabel } from '@mui/material';
+import { MenuItem, Select, SelectChangeEvent, FormControl } from '@mui/material';
 import { styled } from '@mui/system';
 
 // Estilos personalizados para el Select
